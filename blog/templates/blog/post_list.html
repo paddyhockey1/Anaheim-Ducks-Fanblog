@@ -8,25 +8,8 @@
     <title>Views Part 1</title>
 </head>
 
-<style>
-
-body {
-    background-color: rgb(220,220,220);
-    font-family: calibri;
-  
- #img1 {
-    width: 40%;
-    display: block;
-    margin: auto;
- }
-
-</style>
-
 <body>
-    
-   
-    <img id="img1" src="custom-assets/images/ducks-fanblog-logo.jpg" alt="Anaheim Ducks Fanblog Logo">
-    <h1 class="index-h2">Anaheim Ducks Fanblog</h1>
+    <h1>Posts list</h1>
     {% for post in object_list %}
     <h2>{{post.title}}</h2>
     <p>{{post.excerpt}}</p>
