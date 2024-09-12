@@ -1,4 +1,5 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} 
+{% block content %}
 {% load static %}
 
 <div class="masthead">
@@ -24,6 +25,7 @@
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
                 <p class="card-text">
+                    <h2>{{ coder }}</h2>
                     {{ post.content | safe }}
                 </p>
             </div>
