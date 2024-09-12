@@ -4,6 +4,7 @@ from django.contrib import messages
 from .models import Post
 from .forms import CommentForm
 
+
 # Create your views here.
 
 
@@ -54,5 +55,6 @@ def post_detail(request, slug):
             "comments": comments,
             "comment_count": comment_count,
             "comment_form": comment_form,
+            
         },
     )
