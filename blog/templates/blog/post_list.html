@@ -8,13 +8,45 @@
     <title>Ducks Blog</title>
 </head>
 
+<style>
+
+    body {
+        font-family: calibri;
+    }
+
+    #index-h1 {
+        text-align: center;
+    }
+
+    #img1 {
+        width: 20%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #index-h2, #index-p1, #index-p2 {
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+        
+    }
+
+    #index-h2 {
+        text-align: center;
+    }
+
+    #index-p2 {
+        text-align: center;
+    }
+</style>
 <body>
-    <h1>Anaheim Ducks Blog</h1>
+    <h1 id="index-h1">Anaheim Ducks Blog</h1>
+    <img id="img1" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Anaheim_Ducks_logo_2024.svg/220px-Anaheim_Ducks_logo_2024.svg.png" alt="Anaheim Ducks Logo"
     <br>
     {% for post in object_list %}
-    <h2>{{post.title}}</h2>
-    <p>{{post.excerpt}}</p>
-    <p>Author: {{post.author}}</p>
+    <h2 id="index-h2">{{post.title}}</h2>
+    <p id="index-p1">{{post.excerpt}}</p>
+    <p id="index-p2">Author: {{post.author}}</p>
     {% endfor %}
 </body>
 
