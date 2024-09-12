@@ -8,6 +8,8 @@
     <title>Views Part 1</title>
 </head>
 
+<style></style>
+
 <body>
     <h1>Posts list</h1>
     {% for post in object_list %}
@@ -15,6 +17,7 @@
     <p>{{post.excerpt}}</p>
     <p>Author: {{post.author}}</p>
     {% endfor %}
+</div>
 </body>
 
 </html>
