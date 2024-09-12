@@ -20,6 +20,7 @@
                             </div>
                             <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
                             <hr />
@@ -28,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                {% if forloop.counter|divisibleby:1 %}
+                {% if forloop.counter|divisibleby:3 %}
             </div>
             <div class="row">
                 {% endif %}
@@ -49,4 +50,6 @@
 </div>
 
 <!-- index.html content ends here -->
+<!-- index.html content ends here -->
 {% endblock %}
+{% block copyright %}Copyright 2024 Anaheim Ducks Fanblog LLC.{% endblock %}
