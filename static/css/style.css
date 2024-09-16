@@ -6,7 +6,7 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: rgb(252, 76, 2);;
+    color: rgb(252, 76, 2);
 }
 
 .red-o {
@@ -173,4 +173,12 @@ body {
 
 .bg-white {
     background-color: black !important;
+}
+
+.nav-item {
+    color: rgb(252, 76, 2) !important;
+}
+
+.navbar-text {
+    color: rgb(252,76,2);
 }

@@ -6,7 +6,7 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: rgb(252, 76, 2);;
+    color: rgb(252, 76, 2);
 }
 
 .red-o {
@@ -169,6 +169,7 @@ body {
 
 .card-title {
     margin: 10px 0;
+    text-align: center;
 }
 
 .bg-white {
@@ -177,4 +178,8 @@ body {
 
 .nav-item {
     color: rgb(252, 76, 2) !important;
+}
+
+.navbar-text {
+    color: rgb(252,76,2);
 }
