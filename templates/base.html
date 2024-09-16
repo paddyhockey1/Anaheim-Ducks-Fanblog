@@ -2,6 +2,8 @@
 
 {% url 'home' as home_url %}
 
+{% url 'about' as about_url %}
+
 {% url 'account_login' as login_url %}
 {% url 'account_signup' as signup_url %}
 {% url 'account_logout' as logout_url %}
@@ -46,6 +48,7 @@
                             href="{% url 'home' %}">Home</a>
                     </li>
                     {% if user.is_authenticated %}
+                    
 <li class="nav-item">
 	<a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page" href="{% url 'account_logout' %}">Logout</a>
 </li>
@@ -57,6 +60,9 @@
 <li class="nav-item">
 	<a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page" href="{% url 'account_login' %}">Login</a>
 </li>
+
+
+
 {% endif %}                        
                 </ul>
                 <span class="navbar-text text-muted">
