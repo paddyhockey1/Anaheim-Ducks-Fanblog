@@ -14,6 +14,9 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
+                            
+                            <h2 class="card-title">{{ post.title }}</h2>
+
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top" src="{% static 'images/default.jpg' %}"
@@ -27,7 +30,7 @@
                                 </div>
                             </div>
                                 <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
+                                <!-- <h2 class="card-title">{{ post.title }}</h2> -->
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
