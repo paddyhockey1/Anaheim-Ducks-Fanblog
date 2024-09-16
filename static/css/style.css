@@ -131,7 +131,7 @@ body {
 
 .link:hover,
 .link:active {
-    color: rgb(252,76,2);
+    color: #445261;
     text-decoration: underline;
 }
 
@@ -169,6 +169,7 @@ body {
 
 .card-title {
     margin: 10px 0;
+    text-align: center;
 }
 
 .bg-white {
@@ -178,7 +179,18 @@ body {
 .nav-item {
     color: rgb(252, 76, 2) !important;
 }
-
 .navbar-text {
+    color: rgb(252,76,2);
+}
+
+.navbar-nav {
+    color: rgb(252,76,2);
+}
+
+.nav-link {
+    color: rgb(252,76,2);
+}
+
+.navbar-light {
     color: rgb(252,76,2);
 }

@@ -183,6 +183,14 @@ body {
     color: rgb(252,76,2);
 }
 
-.navbar-nav, navbar-link, .navbar-light {
+.navbar-nav {
+    color: rgb(252,76,2);
+}
+
+.nav-link {
+    color: rgb(252,76,2);
+}
+
+.navbar-light {
     color: rgb(252,76,2);
 }
