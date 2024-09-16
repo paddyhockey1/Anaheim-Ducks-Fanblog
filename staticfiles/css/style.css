@@ -67,9 +67,11 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
+    background-color: orange;
     color: white;
-    position: relative;
+    /* position: relative; */
+    width: 80%;
+    margin: 10px 10%;
 }
 
 .masthead-image {
