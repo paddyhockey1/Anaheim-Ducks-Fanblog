@@ -169,10 +169,12 @@ body {
 .image-flash {
     /* position: absolute; */
     /* bottom: 5%; */
-    min-width: 30%;
-    left: -2px;
-    background-color: orange;
-    width: 40%;
-    margin: 10px 25%;
-    text-align: center;
+    min-width: 30% !important;
+    left: -2px !important;
+    background-color: orange !important;
+    width: 40% !important;
+    margin: 10px 25% !important;
+    text-align: center !important;
+    color: black !important;
 }
+
