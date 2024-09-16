@@ -159,3 +159,10 @@ body {
 .approval {
     color: rgb(222, 146, 168);
 }
+
+.col-md-4 {
+    flex: 0 0 auto !important;
+    width: 80% !important;
+    margin: 50px 10% !important;
+}
+
