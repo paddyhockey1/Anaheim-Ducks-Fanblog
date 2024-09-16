@@ -176,21 +176,24 @@ body {
     background-color: black !important;
 }
 
+.text-muted {
+    color: rgb(252,76,2) !important;
+}
+
 .nav-item {
     color: rgb(252, 76, 2) !important;
 }
 .navbar-text {
-    color: rgb(252,76,2);
-}
+    color: rgb(252,76,2) !important;
 
 .navbar-nav {
-    color: rgb(252,76,2);
+    color: rgb(252,76,2) !important;
 }
 
 .nav-link {
-    color: rgb(252,76,2);
+    color: rgb(252,76,2) !important;
 }
 
 .navbar-light {
-    color: rgb(252,76,2);
+    color: rgb(252,76,2) !important;
 }
