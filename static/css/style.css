@@ -131,7 +131,7 @@ body {
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: rgb(252,76,2);
     text-decoration: underline;
 }
 
