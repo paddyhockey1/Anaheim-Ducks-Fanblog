@@ -125,6 +125,15 @@
     .main.shifted > #nav-sidebar + .content {
         max-width: 100%;
     }
+
+    .image-flash {
+        min-width: 30% !;
+        left: -2px;
+        background-color: orange !important;
+        width: 80% !important;
+        text-align: center !important;
+        margin: 10px 1% !important;
+    }
 }
 
 #nav-filter {
