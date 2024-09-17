@@ -101,6 +101,7 @@ body {
 .post-link:hover,
 .page-link {
     color: #E84610;
+    background-color: black;
 }
 
 .post-title {
@@ -111,7 +112,7 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: rgb(252,76,2);
 }
 
 .btn-signup,

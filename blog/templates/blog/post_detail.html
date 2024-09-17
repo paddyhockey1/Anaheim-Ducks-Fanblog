@@ -13,7 +13,9 @@
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
-                <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">
+                <img src="{{ post.featured_image.url }}" class="scale" alt="placeholder">
+           
+                <!-- {% static 'images/default.jpg' %} -->
             </div>
         </div>
     </div>
