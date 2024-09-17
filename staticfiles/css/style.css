@@ -114,8 +114,8 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
-    color: #fff;
+    background-color: black;
+    color: rgb(252,76,2);
 }
 
 .btn-signup:hover,
@@ -185,7 +185,7 @@ body {
 }
 .navbar-text {
     color: rgb(252,76,2) !important;
-
+}
 .navbar-nav {
     color: rgb(252,76,2) !important;
 }
@@ -193,6 +193,11 @@ body {
 .nav-link {
     color: rgb(252,76,2) !important;
 }
+
+.nav-link.active {
+    color: rgb(252,76,2) !important;
+}
+
 
 .navbar-light {
     color: rgb(252,76,2) !important;
