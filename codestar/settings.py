@@ -31,7 +31,7 @@ DEBUG = False
 
 
 ALLOWED_HOSTS = [
-'8000-paddyhockey-anaheimduck-43yw32nnb99.ws-eu116.gitpod.io',
+"https://8000-paddyhockey-anaheimduck-omqufb8p97x.ws-eu116.gitpod.io/",
 '.herokuapp.com'
 ]
 
