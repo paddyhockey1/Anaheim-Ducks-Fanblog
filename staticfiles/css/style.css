@@ -22,7 +22,8 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: black;
+    color: orange;
 }
 
 .main-bg {
@@ -68,8 +69,8 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    background-color: black;
+    color: rgb(252,76,2);
     position: relative;
 }
 
@@ -85,7 +86,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: black;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -105,6 +106,7 @@ body {
 .post-title {
     margin-top: 10%;
     margin-left: 5%;
+    color: rgb(252,76,2);
 }
 
 .post-subtitle {
@@ -200,5 +202,9 @@ body {
 
 
 .navbar-light {
+    color: rgb(252,76,2) !important;
+}
+
+.text-white {
     color: rgb(252,76,2) !important;
 }

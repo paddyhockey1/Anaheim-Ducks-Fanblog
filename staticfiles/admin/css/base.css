@@ -9,6 +9,7 @@ html[data-theme="light"],
     --secondary: black;
     --accent: rgb(252,76,2);
     --primary-fg: rgb(252,76,2);
+    --font-weight: bold;
 
     --body-fg: #333;
     --body-bg: #fff;
@@ -21,9 +22,9 @@ html[data-theme="light"],
     --header-bg: var(--secondary);
     --header-link-color: var(--primary-fg);
 
-    --breadcrumbs-fg: #c4dce8;
-    --breadcrumbs-link-fg: var(--body-bg);
-    --breadcrumbs-bg: #264b5d;
+    --breadcrumbs-fg: black;
+    --breadcrumbs-link-fg: black;
+    --breadcrumbs-bg: rgb(252,76,2);
 
     --link-fg: #417893;
     --link-hover-color: #036;
