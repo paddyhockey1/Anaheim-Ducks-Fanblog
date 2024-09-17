@@ -53,6 +53,7 @@ input[type="submit"], button {
         font-weight: 400;
         line-height: 1.85;
         text-align: left;
+        color: rgb(252,76,2);
     }
 
     #user-tools a {
