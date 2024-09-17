@@ -136,13 +136,13 @@ margin: 10px!important;
 }
 
 .link {
-    color: #23BBBB;
+    color: rgb(252, 76, 2);
     text-decoration: none;
 }
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: black;
     text-decoration: underline;
 }
 

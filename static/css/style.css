@@ -142,7 +142,7 @@ margin: 10px!important;
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: black;
     text-decoration: underline;
 }
 
