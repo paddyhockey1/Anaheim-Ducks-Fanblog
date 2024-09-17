@@ -1004,6 +1004,7 @@ a.deletelink:focus, a.deletelink:hover {
     font-size: 0.6875rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    color: rgb(252,76,2);
 }
 
 #user-tools a, #logout-form button {
