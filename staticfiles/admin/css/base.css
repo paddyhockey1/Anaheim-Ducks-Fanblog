@@ -19,8 +19,8 @@ html[data-theme="light"],
 
     --header-color: #ffc;
     --header-branding-color: var(--accent);
-    --header-bg: var(--secondary);
-    --header-link-color: var(--primary-fg);
+    --header-bg: black;
+    --header-link-color: rgb(252,76,2);
 
     --breadcrumbs-fg: black;
     --breadcrumbs-link-fg: black;
@@ -934,8 +934,8 @@ a.deletelink:focus, a.deletelink:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    background: var(--header-bg);
-    color: var(--header-color);
+    background: black;
+    color: rgb(252,76,2);
 }
 
 #header a:link, #header a:visited, #logout-form button {
