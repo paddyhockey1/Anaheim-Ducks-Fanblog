@@ -6,9 +6,9 @@
 html[data-theme="light"],
 :root {
     --primary: #79aec8;
-    --secondary: #417690;
-    --accent: #f5dd5d;
-    --primary-fg: #fff;
+    --secondary: black;
+    --accent: rgb(252,76,2);
+    --primary-fg: rgb(252,76,2);
 
     --body-fg: #333;
     --body-bg: #fff;
@@ -105,7 +105,7 @@ body {
 /* LINKS */
 
 a:link, a:visited {
-    color: var(--link-fg);
+    color: black;
     text-decoration: none;
     transition: color 0.15s, background 0.15s;
 }
