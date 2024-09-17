@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'django_summernote',
     'cloudinary',
-    
     'blog',
     
 ]
