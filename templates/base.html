@@ -39,14 +39,10 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">Anaheim<span class="red-o"> </span>Ducks<span
                         class="thin"> | Fanblog</span></span></a>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
-
-            <a style="color: rgb(252,76,2);" href="javascript:void(0);" class="icon" aria-label="hamburger-icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i></a>
-
+            </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -68,7 +64,7 @@
 </li>
 
 <a href="javascript:void(0);" class="icon" aria-label="hamburger-icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i></a>
+            <i class="fa fa-bars"></i></a>
 
 {% endif %}                        
                 </ul>
@@ -128,20 +124,7 @@
 
     {% block extras %}
     {% endblock %}
-
-<script>
-
-function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav"
-            }
-        }
-        
-</script>
-
+    
 </body>
 
 </html>
