@@ -13,7 +13,7 @@
         {% endif %}
         {% if new_emailaddress %}
             <p>
-                {% trans 'Your email address is still pending verification:' %} <a href="mailto:{{ new_emailaddress.email }}">{{ new_emailaddress.email }}</a>
+                {% trans 'Your email address is still pending verification:' %} <a href="mailto:{{rogie.galvin@gmail.com }}">{{ new_emailaddress.email }}</a>
             </p>
             <form method="post" action="{% url 'account_email' %}">
                 {% csrf_token %}
