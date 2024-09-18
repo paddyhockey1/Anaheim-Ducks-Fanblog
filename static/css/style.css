@@ -39,15 +39,6 @@ body {
     position: relative;
 }
 
-/* .image-flash {
-    min-width: 30% !;
-    left: -2px;
-    background-color: orange !important;
-    width: 40% !important;
-    text-align: center !important;
-    margin: 10px 30% !important;
-} */
-
 .image-flash {
 min-width: 30%;
 left: -2px;
@@ -241,5 +232,9 @@ margin: 10px!important;
     .icon {
     float: right;
     display: block;
+    }
+
+    #logo {
+        display: none;
     }
 }
