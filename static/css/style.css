@@ -239,7 +239,7 @@ margin: 10px!important;
     background-color:rgb(252,76,2);
   } */
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 990px) {
     .icon {
     float: right;
     display: block;
@@ -247,6 +247,5 @@ margin: 10px!important;
 
     #logo {
         display: none !important;
-        visibility: hidden !important;
     }
 }
