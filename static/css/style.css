@@ -187,6 +187,7 @@ margin: 10px!important;
 }
 .navbar-text {
     color: rgb(252,76,2) !important;
+    padding: 15px;
 }
 .navbar-nav {
     color: rgb(252,76,2) !important;
@@ -203,6 +204,7 @@ margin: 10px!important;
 
 .navbar-light {
     color: rgb(252,76,2) !important;
+    padding: 15px;
 }
 
 .text-white {
@@ -235,6 +237,7 @@ margin: 10px!important;
     }
 
     #logo {
-        display: none;
+        display: none !important;
+        visibility: hidden !important;
     }
 }
