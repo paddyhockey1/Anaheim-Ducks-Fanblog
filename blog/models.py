@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
+from django.contrib.auth.models import User
+
 STATUS = ((0, "Draft"), (1, "Published"))
 # Create your models here.
 
@@ -40,7 +42,20 @@ class Comment(models.Model):
 class Meta:
         ordering = ["created_on"]
 
-def __str__(self):
-        return f"Comment {self.body} by {self.author}"
+        # User Profile code Here
 
-        
+class Profile(models.Model):
+        user = models.OneToOneField(User, null=True, on_delete = models.CASCADE)
+        first_name = models.CharField(max_length=255)
+        last_name = models.CharField(max_length=255)
+        profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
+        bio = models.TextField()
+        favourite_Duck = models.CharField(max_length=255)
+
+class Meta:
+    ordering = ["-created_on"]
+
+
+def __str__(self):
+    return str(self.user)
+
