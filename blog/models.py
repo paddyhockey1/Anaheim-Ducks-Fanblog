@@ -46,15 +46,12 @@ class Meta:
 
 class Profile(models.Model):
         user = models.OneToOneField(User, null=True, on_delete = models.CASCADE)
-        first_name = models.CharField(max_length=255)
-        last_name = models.CharField(max_length=255)
+        first_name = models.CharField(max_length=255, default='')
+        last_name = models.CharField(max_length=255, default='')
         profile_picture = models.ImageField(upload_to='static/images', blank=True, null=True)
-        bio = models.TextField()
-        favourite_Duck = models.CharField(max_length=255)
-
-class Meta:
-    ordering = ["-created_on"]
-
+        bio = models.TextField(max_length=500, default='')
+        favourite_Duck = models.CharField(max_length=255, default='')
+        updated_on = models.DateTimeField(auto_now=True)
 
 def __str__(self):
     return str(self.user)

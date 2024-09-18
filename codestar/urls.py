@@ -22,7 +22,7 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     path("accounts/", include("allauth.urls")),
     path('admin/', admin.site.urls),
-    path("profile/",  include("allauth.urls")),
+    # path("Profile/",  include("allauth.urls")),
     path('summernote/', include('django_summernote.urls')),
     path("", include("blog.urls"), name="blog-urls"),
 ]
