@@ -222,8 +222,17 @@ margin: 10px!important;
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: rgb(252, 76, 2);
+    background-color: transparent;
     border: 1px solid transparent;
     color: orange !important;
     border-radius: .25rem;
     transition: box-shadow .15s ease-in-out;
+}
+
+.text-end {
+    text-align: center !important;
+}
+
+.icon {
+    display: none;
+    }

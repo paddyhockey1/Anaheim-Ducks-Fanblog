@@ -217,3 +217,29 @@ margin: 10px!important;
 .text-white {
     color: rgb(252,76,2) !important;
 }
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: orange !important;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.text-end {
+    text-align: center !important;
+}
+
+.icon {
+    display: none !important;
+    }
+
+@media screen and (max-width: 900px) {
+    .icon {
+    float: right;
+    display: block;
+    }
+}
