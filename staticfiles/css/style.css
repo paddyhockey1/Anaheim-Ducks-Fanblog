@@ -39,14 +39,21 @@ body {
     position: relative;
 }
 
+/* .image-flash {
+    min-width: 30% !;
+    left: -2px;
+    background-color: orange !important;
+    width: 40% !important;
+    text-align: center !important;
+    margin: 10px 30% !important;
+} */
 
 .image-flash {
 min-width: 30%;
 left: -2px;
 background-color: orange !important;
 text-align: center !important;
-width: 60%;
-margin: 10px 20%!important;
+margin: 10px!important;
 }
 
 .scale {
@@ -167,8 +174,8 @@ margin: 10px 20%!important;
 
 .col-md-4 {
     flex: 0 0 auto !important;
-    width: 80% !important;
-    margin: 50px 10% !important;
+    width: 60% !important;
+    margin: 50px 20% !important;
 }
 
 .card-title {

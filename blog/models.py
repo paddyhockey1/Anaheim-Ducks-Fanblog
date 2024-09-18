@@ -48,7 +48,7 @@ class Profile(models.Model):
         user = models.OneToOneField(User, null=True, on_delete = models.CASCADE)
         first_name = models.CharField(max_length=255)
         last_name = models.CharField(max_length=255)
-        profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
+        profile_picture = models.ImageField(upload_to='static/images', blank=True, null=True)
         bio = models.TextField()
         favourite_Duck = models.CharField(max_length=255)
 
