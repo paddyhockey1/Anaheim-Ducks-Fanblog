@@ -54,6 +54,7 @@
     padding: 1em 0 0 0;
     margin: 0;
     text-align: center;
+    color: rgb(252,76,2);
 }
 
 .login .password-reset-link {

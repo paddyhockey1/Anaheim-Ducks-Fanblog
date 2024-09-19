@@ -3,6 +3,7 @@
 input[type="submit"], button {
     -webkit-appearance: none;
     appearance: none;
+    color: yellow;
 }
 
 @media (max-width: 1024px) {
