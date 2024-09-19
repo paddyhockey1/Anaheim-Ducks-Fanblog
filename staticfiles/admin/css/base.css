@@ -20,7 +20,7 @@ html[data-theme="light"],
     --header-color: #ffc;
     --header-branding-color: var(--accent);
     --header-bg: black;
-    --header-link-color: rgb(252,76,2);
+    --header-link-color: rgb(252, 76, 2);
 
     --breadcrumbs-fg: black;
     --breadcrumbs-link-fg: black;

@@ -105,14 +105,14 @@ html[data-theme="dark"] .theme-toggle .theme-label-when-dark {
     display: block;
 }
 
-html[data-theme="light"] .theme-toggle .theme-label-when-light {
+html[data-theme="dark"] .theme-toggle .theme-label-when-dark {
     display: block;
 }
 
 /* ICONS */
 .theme-toggle svg.theme-icon-when-auto,
 .theme-toggle svg.theme-icon-when-dark,
-.theme-toggle svg.theme-icon-when-light {
+.theme-toggle svg.theme-icon-when-dark {
     fill: var(--header-link-color);
     color: var(--header-bg);
 }
@@ -125,6 +125,6 @@ html[data-theme="dark"] .theme-toggle svg.theme-icon-when-dark {
     display: block;
 }
 
-html[data-theme="light"] .theme-toggle svg.theme-icon-when-light {
+html[data-theme="dark"] .theme-toggle svg.theme-icon-when-dark {
     display: block;
 }

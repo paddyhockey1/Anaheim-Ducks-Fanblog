@@ -27,7 +27,7 @@ class Meta:
     ordering = ["-created_on"]
 
 def __str__(self):
-    return f"{self.title} | written by {self.author}"
+    return f"{self.name} | written by {self.author}"
 
 
 class Comment(models.Model):
@@ -41,6 +41,11 @@ class Comment(models.Model):
 
 class Meta:
         ordering = ["created_on"]
+
+
+def __str__(self):
+    return f"{self.name} | written by {self.author}"
+
 
         # User Profile code Here
 
