@@ -230,9 +230,6 @@ margin: 10px!important;
     display: none !important;
     }
 
-.navbar-light, .navbar-toggler {
-    background-color: rgb(252, 76, 2) !important;
-}
 /* 
 .navbar-toggler-icon {
     background-image: escape-svg(navbar-light-toggler-icon-bg);
