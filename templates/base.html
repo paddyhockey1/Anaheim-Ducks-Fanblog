@@ -46,8 +46,9 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
-                            href="{% url 'home' %}">Home</a>
+                        <!-- <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
+                            href="{% url 'home' %}">Home</a> -->
+                            <a class="navbar-brand" href="{% url 'home' %}"><img id="logo" style="width: 50px;" src="https://res.cloudinary.com/dxgqienyx/image/upload/v1726666235/ducks-logo_w4devy.png" target="_self"></a>
                     </li>
                     {% if user.is_authenticated %}
                     
@@ -65,7 +66,7 @@
 {% endif %}                        
                 </ul>
                 <span class="navbar-text text-muted">
-                    <a id="logo" href="8000-paddyhockey-anaheimduck-omqufb8p97x.ws-eu116.gitpod.io"><img id="logo" style="width: 50px;" src="https://res.cloudinary.com/dxgqienyx/image/upload/v1726666235/ducks-logo_w4devy.png" target="_self"></a>
+                    <!-- <a class="navbar-brand" href="{% url 'home' %}"><img id="logo" style="width: 50px;" src="https://res.cloudinary.com/dxgqienyx/image/upload/v1726666235/ducks-logo_w4devy.png" target="_self"></a> -->
             
                 </span>
             </div>
