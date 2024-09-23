@@ -41,12 +41,9 @@ def post_detail(request, slug):
             comment.save()
             messages.add_message(
                 request, messages.SUCCESS,
-                'Comment submitted and awaiting approval'
-    )
-
-
+                    "Comment submitted and awaiting approval"
+            )
     comment_form = CommentForm()
-
 
     return render(
         request,
@@ -56,7 +53,6 @@ def post_detail(request, slug):
             "comments": comments,
             "comment_count": comment_count,
             "comment_form": comment_form,
-            
         },
     )
 
@@ -77,12 +73,11 @@ def comment_edit(request, slug, comment_id):
             comment.post = post
             comment.approved = False
             comment.save()
-            messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
+            messages.add_message(request, messages.SUCCESS, "Comment Updated!")
         else:
             messages.add_message(request, messages.ERROR,
-                                 'Error updating comment!')
-
-    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+                                 "Error updating comment!")
+    return HttpResponseRedirect(reverse("post_detail", args=[slug]))
 
 
 def comment_delete(request, slug, comment_id):
@@ -95,16 +90,13 @@ def comment_delete(request, slug, comment_id):
 
     if comment.author == request.user:
         comment.delete()
-        messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
+        messages.add_message(request, messages.SUCCESS, "Comment deleted!")
     else:
-        messages.add_message(request, messages.ERROR,
-                             'You can only delete your own comments!')
-
-    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-
+        messages.add_message(
+            request, messages.ERROR, "You can only delete your own comments!"
+        )
+    return HttpResponseRedirect(reverse("post_detail", args=[slug]))
 
 
 def profile(request):
-    return render(request, 'users/profile.html')
-
-    
+    return render(request, "users/profile.html")
