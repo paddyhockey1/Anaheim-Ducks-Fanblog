@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
 
 STATUS = ((0, "Draft"), (1, "Published"))
 # Create your models here.
@@ -26,8 +26,10 @@ class Post(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
 
+    
+
 class Meta:
-    ordering = ["-created_on"]
+    ordering = ["-created_date"]
 
 
 def __str__(self):
