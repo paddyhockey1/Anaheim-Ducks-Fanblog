@@ -96,4 +96,67 @@ Contained within the site's footer are links to the Ducks official accounts. The
 Once registered, users may comment on the posts contained within the site. Users must be approved before commenting and their individual comments must be approved by the relevent user to ensure their comments do not contain any inappropriate content. This moderation ensures every user feels welcome when visiting the site.
 
 
+## User Stories
 
+
+![user-stories](https://github.com/user-attachments/assets/1ad71093-457a-479d-9701-336f7db39242)
+
+
+The project containing these user stories can be accessed [here](https://github.com/users/paddyhockey1/projects/32)
+
+
+The purpose of this site ie to give Anaheim Ducks fans the option to learn more about the team through posts and comments. They can do so by registering with the site and it will give them access to a list of posts about the team.
+
+
+The users also have the ability to edit and delete their comments while logged in to the site. The site also shows the latest stories that have been written by some of the site's users which can be easily navigated between and comment on them.
+
+
+The user stories have been split between the user stories that have been completed and some that will hopefully be completed in the future but are currently incomplete.
+
+
+### Completed User Stories
+
+
+* As a user I want to be able to create an account so that I can contribute to the site
+
+
+* As a user I want to be kept signed in so that I do not have to login on every visit.
+
+
+* As a user I want to be able to login to contribute to site
+
+
+* As a user I want more content so that I can keep up to date with the latest news.
+
+
+* As the superuser I want to be able to approve users so I can decide who can register.
+
+
+* As the site administrator I want to be able to change posts so I can maintain standard on site.
+
+
+* As the administrator I want to be able to approve comments so that I can ensure site environment.
+
+
+* As a site administrator I want to enure the admin site is protected so that unregistered users cannot access it.
+
+
+* As a user I want social media links so that I can share the site with others.
+
+
+* As an admin I should be able to access profiles in admin site to allow for changes to user's profile
+
+
+### Open User Stories
+
+
+* As a user I would like an social media link so that I can share posts I enjoy on social media platforms.
+
+
+* As a registered user I want to be able to change my profile so that I have more input over my personal information
+
+
+* As the administrator I want to be able to create categories for post types so that they would be easier to find.
+
+
+* As a site admin I want a forum integrated into site so that users can directly interact with each other.
