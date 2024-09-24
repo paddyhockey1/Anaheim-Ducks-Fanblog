@@ -64,7 +64,7 @@ Once they have clicked the login button, they will be redirected to a custom sty
 
 
 * Logout Page
-* 
+
 
 <kbd>![register](https://github.com/user-attachments/assets/72ae9840-702c-4e54-8c6f-8446a8e49249)</kbd>
 
@@ -78,4 +78,10 @@ A logged in, registered user can choose to log out by clicking the log out optio
 Once on this sign out page, the user will be asked if they are sure they wish to sign out to prevent users being accidentally signed out against their will. Once signed out they will be re-directed to the site's home page.
 
 
+* Social Media Links
 
+
+<kbd>![social-media](https://github.com/user-attachments/assets/38e7d350-83ec-4286-9fc7-f75b6f6f47f1)</kbd>
+
+
+Contained within the site's footer are links to the Ducks official accounts. These include: facebook, Instagram and Reddit. This allows users Direct links to the team's various social media sites.
