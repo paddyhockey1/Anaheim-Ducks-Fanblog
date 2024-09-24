@@ -57,7 +57,6 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     "django_summernote",
     "django_non_dark_admin",
-    "django_extensions",
     "blog",
 ]
 
