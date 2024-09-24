@@ -129,6 +129,18 @@ I would like to eventually create site specific social media accounts rather tha
 Future improvements could include a method to filter blog posts by category making locating them easier to both users and the site's administrators.
 
 
+* Password Reset Email Notification
+
+
+Should a user forget their password, there is no way currently for the user to reset their own personal email. A future addition could be that when a user forgets either their username or password, an automated email could be sent to their personal email, which would be added to their user profile with a reset link contained in the email.
+
+
+* Contact and Message Page
+
+
+A page within the site could be created where the user could contact the site's admin either through email or through a direct message that could be written within the site with no need for an external email address.
+
+
 ## User Stories
 
 
