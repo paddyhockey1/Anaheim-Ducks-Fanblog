@@ -30,3 +30,21 @@ That login page can be accessed through this [link](https://anaheim-ducks-fanblo
 
 
 Each of the site's pages contain a navigation menu at the top of each page. This allows for users to register, login and logout no matter which page they find themselves on. The menu also contains two extra links to the home page through the site title in the top left and the team logo in the top right of each page.
+
+
+## Register Page
+
+
+<kbd>![register](https://github.com/user-attachments/assets/06639b42-5ec6-44ca-b0b6-39e9807dc779)
+</kbd>
+
+
+Each page contains a link through which the user can decide to create an account for the site. Clicking this link will bring the user to a custom sign up page.
+
+
+<kbd>![signup-page](https://github.com/user-attachments/assets/c49a783e-743c-42e3-be63-af88b9d73d7d)</kbd>
+
+
+This sign up page allows them to create their account by providing a unique username, their email address and a password. Once these steps have been completed the user is now registered and can engage with the page.
+
+
