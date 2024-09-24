@@ -967,6 +967,7 @@ a.deletelink:focus, a.deletelink:hover {
 
 #site-name a:link, #site-name a:visited {
     color: var(--accent);
+    font-weight: bold;
 }
 
 #branding h2 {

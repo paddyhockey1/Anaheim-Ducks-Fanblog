@@ -116,7 +116,8 @@ WSGI_APPLICATION = "codestar.wsgi.application"
 
 DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
-CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io/", "https://*.herokuapp.com"]
+CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io/", 
+                        "https://*.herokuapp.com"]
 
 
 # Password validation
