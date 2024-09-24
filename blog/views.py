@@ -100,3 +100,4 @@ def comment_delete(request, slug, comment_id):
 
 def profile(request):
     return render(request, "users/profile.html")
+
