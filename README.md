@@ -96,6 +96,39 @@ Contained within the site's footer are links to the Ducks official accounts. The
 Once registered, users may comment on the posts contained within the site. Users must be approved before commenting and their individual comments must be approved by the relevent user to ensure their comments do not contain any inappropriate content. This moderation ensures every user feels welcome when visiting the site.
 
 
+## Future Features
+
+
+* User Posts
+
+
+In the future I would like to allow some users, with necessary permissions, to write their own posts that others can read and comment on.
+
+
+* Forum Integration
+
+
+The integration of a forum feature in the site would allow for users to engage in more detail than simply through the comments on each post.
+
+
+* Users can Edit their own profiles
+
+
+Users would be able to access their own profiles and edit them accordingly. The profile could contain more information about the user like an image and information on what date the user joimed and how many comments and posts they have contribute to the site
+
+
+* Personal Social Media LInks
+
+
+I would like to eventually create site specific social media accounts rather than the team's official sites that have links contained within the footer. These links could also be placed below each blog post so users could share not only the site in general but specific posts that they find informative.
+
+
+* Topic Categorization
+
+
+Future improvements could include a method to filter blog posts by category making locating them easier to both users and the site's administrators.
+
+
 ## User Stories
 
 
