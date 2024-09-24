@@ -111,9 +111,6 @@ The purpose of this site ie to give Anaheim Ducks fans the option to learn more 
 The users also have the ability to edit and delete their comments while logged in to the site. The site also shows the latest stories that have been written by some of the site's users which can be easily navigated between and comment on them.
 
 
-## User Stories
-
-
 The user stories have been split between the user stories that have been completed and some that will hopefully be completed in the future but are currently incomplete.
 
 
