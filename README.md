@@ -205,3 +205,9 @@ The user stories have been split between the user stories that have been complet
 
 
 * As a site admin I want a forum integrated into site so that users can directly interact with each other.
+
+
+* As a site user I want a contact page so that I can contact site moderators should I have an issue. This could also allow users to privately raise any issues they find on the site.
+
+
+* As a user I would like to receive a password or username reset password so I could create new alternatives without the help of the site's moderators.
