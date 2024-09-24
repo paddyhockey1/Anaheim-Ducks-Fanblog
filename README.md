@@ -63,3 +63,19 @@ If the user has already registered an account, they can click login on the site'
 Once they have clicked the login button, they will be redirected to a custom styled signin page that will ask them to enter both their username and password. There is also an option for them to use the 'Remember Me' option that will keep them signed in to the site and will not require a new login on each visit to the site.
 
 
+* Logout Page
+* 
+
+<kbd>![register](https://github.com/user-attachments/assets/72ae9840-702c-4e54-8c6f-8446a8e49249)</kbd>
+
+
+A logged in, registered user can choose to log out by clicking the log out option in the navigation menu. This qwill bring them to a sign out page where they can sign out with
+
+
+<kbd>![signout-page](https://github.com/user-attachments/assets/d58d2eae-ce1c-44f1-aec7-cb2d4cb817e7)</kbd>
+
+
+Once on this sign out page, the user will be asked if they are sure they wish to sign out to prevent users being accidentally signed out against their will. Once signed out they will be re-directed to the site's home page.
+
+
+
