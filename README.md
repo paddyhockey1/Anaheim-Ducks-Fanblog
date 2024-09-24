@@ -1,4 +1,4 @@
-# Anaheim-Ducks-Blog
+# Anaheim-Ducks-Fanblog
 
 
 The site is a user created blog that will keep it's users up to date with the day-to-day activities of the Anaheim Ducks Hockey Team of the National Hockey League. Users can find the latest headlines and opinion pieces regarding the teams activities, both on and off the ice. Users who register with the site can also comment on posts that will allow for more direct engagement with the site's community.
