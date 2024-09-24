@@ -85,3 +85,15 @@ Once on this sign out page, the user will be asked if they are sure they wish to
 
 
 Contained within the site's footer are links to the Ducks official accounts. These include: facebook, Instagram and Reddit. This allows users Direct links to the team's various social media sites.
+
+
+* User Comments
+
+
+<kbd>![comment-box](https://github.com/user-attachments/assets/01011a10-7601-44f5-81a3-1d4871a4fcc0)</kbd>
+
+
+Once registered, users may comment on the posts contained within the site. Users must be approved before commenting and their individual comments must be approved by the relevent user to ensure their comments do not contain any inappropriate content. This moderation ensures every user feels welcome when visiting the site.
+
+
+
