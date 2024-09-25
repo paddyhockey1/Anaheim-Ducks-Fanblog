@@ -232,3 +232,18 @@ The user stories have been split between the user stories that have been complet
 
 
 * Non-matching password entries are flagged and the user is asked to enter both password entries for successful registration.
+
+
+### Login Page
+
+
+* Accessing login page through link in top menu was successful
+
+
+* Link between login page and sing up page is working for new users who do not already have an account
+
+
+* User must enter personal details correctly. If details are entered incorrectly a message appears telling them that their credentials are incorrect
+
+
+* 'Rememeber Me' option keeps user loggded in for future visited as it was designed to do.
