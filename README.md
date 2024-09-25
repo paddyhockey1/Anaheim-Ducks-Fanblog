@@ -360,7 +360,7 @@ The user stories have been split between the user stories that have been complet
 ### W3c Validator Admin Page
 
 
-![W3c-admin](https://github.com/user-attachments/assets/958ef66b-6dd2-45c1-9a9a-eae3d56b6575)
+<kbd>![w3c-admin-page](https://github.com/user-attachments/assets/dfe0eb92-ac43-4fa2-8a39-d24874acebd5)</kbd>
 
 
 ### Lighthouse
