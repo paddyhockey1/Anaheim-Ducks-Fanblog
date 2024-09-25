@@ -277,3 +277,21 @@ The user stories have been split between the user stories that have been complet
 
 
 * Comment box is located beneath post as was designed.
+
+
+### Comments
+
+
+* Comment box only appears for registered users and unregistered users are greeeted by the message 'Log in to leave a comment' so unregistered users cannot leave comments.
+
+
+* When users are registered a comment box successfully appears along with a submit button .
+
+
+* Comment box can be resized so users who may wish to leave longer comments can see the entirety of their comment without scrolling as intended.
+
+
+* Comment, once made, are split into two types, approved and to be approved. approved comments appear with regular text colour and to be approvved comments appear with a grey font colour as planned.
+
+
+* when comments are made buttons asking if they would like to either edit or delete their comment appear as included in the code.
