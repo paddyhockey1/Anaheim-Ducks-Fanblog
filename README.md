@@ -487,4 +487,9 @@ The user stories have been split between the user stories that have been complet
 * Post images were taken from both the [Anaheim Ducks Official website](https://www.nhl.com/ducks/) and the [Pucks of a Feather Blog](https://pucksofafeather.com/)
 
 
+## Acknowledgements
+
+
+* I would like to thank my facilitator Marko and especially my Mentor Spence for their help throughout the project.
+
 
