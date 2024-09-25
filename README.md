@@ -322,3 +322,25 @@ The user stories have been split between the user stories that have been complet
 * As designed, only the super user and those who have been given the necesary permissions can make changes to the admin page.
 
 
+## Other Testing
+
+
+* I have tested the site on a number of desktop browsers. These include: Microsoft Edge, Chrome, Opera, Firefox, and Duckduckgo.
+
+
+* I have tested the responsiveness on smaller screens, mobile and tablet, and am happy with the site's responsiveness. The navigation menu responds well when necessary for smaller screens
+
+
+* All external social media links have been tested and open in external tabs.
+
+
+* Commeent edit and delete have been tested and work as intended.
+
+
+* Posts will display 'This comment is awaiting approval' and will be greyed out until approved by superuser as expected
+
+
+* Django admin successfully adds new users to the user model in the admin page.
+
+
+* Posts are successfully added to blog when created through Posts model in Django Admin.
