@@ -347,3 +347,75 @@ The user stories have been split between the user stories that have been complet
 
 
 * When unathorised user attempts to log in tyo Django Admin page they are denied access and greeted by the message 'You are authenticated as rooch20, but are not authorized to access this page. Would you like to login to a different account?'
+
+
+## Validation
+
+
+### Lighthouse
+
+
+![lighthouse](https://github.com/user-attachments/assets/b44674c7-2046-4209-b9f2-cfbb7cbee849)
+
+
+### CI Python Linter (models.py)
+
+
+![linter](https://github.com/user-attachments/assets/87d79b4e-1ca3-4ea0-b626-6b9185cd32f7)
+
+
+## Used Languages and Programs
+
+
+* HTML5
+
+
+* CSS
+
+
+* JavaScript
+
+
+* Python
+
+
+* Django
+
+
+* Summernote
+
+
+* Psycopg2
+
+
+* Whitenoise
+
+
+* Gunicorn
+
+
+* Cloudinary
+
+
+* Bootstrap
+
+
+* DJ Database URL
+
+
+* PostgreSQL
+
+
+## Wireframes
+
+
+![balsamiq-desktop](https://github.com/user-attachments/assets/7f6a1b16-7784-4f8c-9f63-361f49655e94)
+
+
+![balsamiq-mobile](https://github.com/user-attachments/assets/0ace5be7-2862-4abb-9c04-bfd149bbf18a)
+
+
+## Deployment
+
+
+
