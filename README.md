@@ -211,3 +211,24 @@ The user stories have been split between the user stories that have been complet
 
 
 * As a user I would like to receive a password or username reset password so I could create new alternatives without the help of the site's moderators.
+
+
+## Testing
+
+
+### Register Page
+
+
+* When clicked, register page appears as expected
+
+
+* Register page allows for entry of username and passowrd and optional email address.
+
+
+* User is informed of password rules that must be folowed for site to successfully register user password.
+
+
+* Link with login page for existing users works as planned.
+
+
+* Non-matching password entries are flagged and the user is asked to enter both password entries for successful registration.
