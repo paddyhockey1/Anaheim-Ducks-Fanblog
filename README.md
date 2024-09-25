@@ -247,3 +247,18 @@ The user stories have been split between the user stories that have been complet
 
 
 * 'Rememeber Me' option keeps user loggded in for future visited as it was designed to do.
+
+
+### Logout Page
+
+
+* Logout link betweenhome page navigation menu and login page works as planned.
+
+
+* Sign Out button works as expected and successfully signs user out of site
+
+
+* User is asked if they are sure they wish to log out of site before successfully logging out.
+
+
+
