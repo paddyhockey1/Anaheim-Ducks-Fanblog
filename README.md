@@ -213,6 +213,16 @@ The user stories have been split between the user stories that have been complet
 * As a user I would like to receive a password or username reset password so I could create new alternatives without the help of the site's moderators.
 
 
+## Model Design
+
+
+![ERD for Project 4](https://github.com/user-attachments/assets/57689708-c41f-4f0a-a5c3-e9e0cd43af70)
+
+
+* The models I used for my project are the default usr model in Django along with the two models in the walkthrough project, post and comment. I created my own custom model for 
+  profiles that containe the fields of: user, first name, last name, picture, bio, and an extra model for each user's all time favourite Ducks player.
+
+
 ## Testing
 
 
