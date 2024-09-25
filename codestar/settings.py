@@ -116,7 +116,7 @@ WSGI_APPLICATION = "codestar.wsgi.application"
 
 DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
-CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io/", 
+CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io/",
                         "https://*.herokuapp.com"]
 
 
@@ -169,3 +169,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+
+
+
