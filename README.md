@@ -294,4 +294,21 @@ The user stories have been split between the user stories that have been complet
 * Comment, once made, are split into two types, approved and to be approved. approved comments appear with regular text colour and to be approvved comments appear with a grey font colour as planned.
 
 
-* when comments are made buttons asking if they would like to either edit or delete their comment appear as included in the code.
+* When comments are made buttons asking if they would like to either edit or delete their comment appear as included in the code.
+
+
+* Both comment editing and cdeletion are working succesfully.
+
+
+### Admin Page Access
+
+
+* Admin page is accessed by adding the suffix /admin to the site's URL address as planned.
+
+
+* Super user and those with staff status can successfully access the admin page as expected.
+
+
+* As designed, only the super user and those who have been given the necesary permissions can make changes to the admin page.
+
+
