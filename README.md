@@ -363,6 +363,18 @@ The user stories have been split between the user stories that have been complet
 <kbd>![linter](https://github.com/user-attachments/assets/87d79b4e-1ca3-4ea0-b626-6b9185cd32f7)</kbd>
 
 
+## Static CSS File
+
+
+![static-css](https://github.com/user-attachments/assets/884af8a5-fae1-46b3-b59e-673313e321ef)
+
+
+# staticfiles CSS File
+
+
+![staticfiles css](https://github.com/user-attachments/assets/64c466be-6c3d-455a-8985-a1c724887121)
+
+
 ## Used Languages and Programs
 
 
@@ -449,5 +461,30 @@ The user stories have been split between the user stories that have been complet
 
 
 <kbd>![postgresql](https://github.com/user-attachments/assets/62bf4fe6-8983-46da-ab98-63446a8817a7)</kbd>
+
+
+## Credits
+
+
+### Content
+
+
+* Bootstrap was mainly used for the CSS styling though some had to be overwritten tio customize it to my needs.
+
+
+* The Post and Comment models were heavily influenced by the models in the 'I think Therefore I Blog' walkthrough.
+
+
+* The Custom Profile model was influenced by Codemy on Youtube. The link can be accessed [here](https://www.youtube.com/watch?v=Alua227cOmY)
+
+
+### Media
+
+
+* The favicon image was created by Artificial intelligence through the ChatGPT site.
+
+
+* Post images were taken from both the [Anaheim Ducks Official website](https://www.nhl.com/ducks/) and the [Pucks of a Feather Blog](https://pucksofafeather.com/)
+
 
 
