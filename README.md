@@ -415,6 +415,40 @@ The user stories have been split between the user stories that have been complet
 ![balsamiq-mobile](https://github.com/user-attachments/assets/0ace5be7-2862-4abb-9c04-bfd149bbf18a)
 
 
+## Deployment
 
+
+### Heroku
+
+
+* App Information
+
+
+![heroku](https://github.com/user-attachments/assets/a14153c5-7f31-446b-95b9-d7a743f71b90)
+
+
+
+* Config Vars List
+
+
+![config-vars](https://github.com/user-attachments/assets/21ba3069-0487-4e13-be53-1ef5d171d79b)
+
+
+* Buildpacks
+
+
+![buildpacks](https://github.com/user-attachments/assets/c02ce743-ea13-46a6-aff9-05adcaf65d12)
+
+
+### Cloudinary
+
+
+![cloudinary](https://github.com/user-attachments/assets/16758d6b-b0ca-488a-aa8a-1b3e6bf73adc)
+
+
+### CI PostgreSQL
+
+
+![postgresql](https://github.com/user-attachments/assets/62bf4fe6-8983-46da-ab98-63446a8817a7)
 
 
