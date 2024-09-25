@@ -144,7 +144,7 @@ A page within the site could be created where the user could contact the site's 
 ## User Stories
 
 
-![user-stories](https://github.com/user-attachments/assets/1ad71093-457a-479d-9701-336f7db39242)
+<kbd>![user-stories](https://github.com/user-attachments/assets/1ad71093-457a-479d-9701-336f7db39242)</kbd>
 
 
 The project containing these user stories can be accessed [here](https://github.com/users/paddyhockey1/projects/32)
@@ -216,8 +216,7 @@ The user stories have been split between the user stories that have been complet
 ## Model Design
 
 
-![ERD for Project 4](https://github.com/user-attachments/assets/57689708-c41f-4f0a-a5c3-e9e0cd43af70)
-
+<kbd>![ERD for Project 4](https://github.com/user-attachments/assets/57689708-c41f-4f0a-a5c3-e9e0cd43af70)</kbd>
 
 * The models I used for my project are the default usr model in Django along with the two models in the walkthrough project, post and comment. I created my own custom model for 
   profiles that containe the fields of: user, first name, last name, picture, bio, and an extra model for each user's all time favourite Ducks player.
@@ -355,13 +354,13 @@ The user stories have been split between the user stories that have been complet
 ### Lighthouse
 
 
-![lighthouse](https://github.com/user-attachments/assets/b44674c7-2046-4209-b9f2-cfbb7cbee849)
+<kbd>![lighthouse](https://github.com/user-attachments/assets/b44674c7-2046-4209-b9f2-cfbb7cbee849)</kbd>
 
 
 ### CI Python Linter (models.py)
 
 
-![linter](https://github.com/user-attachments/assets/87d79b4e-1ca3-4ea0-b626-6b9185cd32f7)
+<kbd>![linter](https://github.com/user-attachments/assets/87d79b4e-1ca3-4ea0-b626-6b9185cd32f7)</kbd>
 
 
 ## Used Languages and Programs
@@ -409,10 +408,10 @@ The user stories have been split between the user stories that have been complet
 ## Wireframes
 
 
-![balsamiq-desktop](https://github.com/user-attachments/assets/7f6a1b16-7784-4f8c-9f63-361f49655e94)
+<kbd>![balsamiq-desktop](https://github.com/user-attachments/assets/7f6a1b16-7784-4f8c-9f63-361f49655e94)</kbd>
 
 
-![balsamiq-mobile](https://github.com/user-attachments/assets/0ace5be7-2862-4abb-9c04-bfd149bbf18a)
+<kbd>![balsamiq-mobile](https://github.com/user-attachments/assets/0ace5be7-2862-4abb-9c04-bfd149bbf18a)</kbd>
 
 
 ## Deployment
@@ -424,31 +423,31 @@ The user stories have been split between the user stories that have been complet
 * App Information
 
 
-![heroku](https://github.com/user-attachments/assets/a14153c5-7f31-446b-95b9-d7a743f71b90)
+<kbd>![heroku](https://github.com/user-attachments/assets/a14153c5-7f31-446b-95b9-d7a743f71b90)</kbd>
 
 
 
 * Config Vars List
 
 
-![config-vars](https://github.com/user-attachments/assets/21ba3069-0487-4e13-be53-1ef5d171d79b)
+<kbd>![config-vars](https://github.com/user-attachments/assets/21ba3069-0487-4e13-be53-1ef5d171d79b)</kbd>
 
 
 * Buildpacks
 
 
-![buildpacks](https://github.com/user-attachments/assets/c02ce743-ea13-46a6-aff9-05adcaf65d12)
+<kbd>![buildpacks](https://github.com/user-attachments/assets/c02ce743-ea13-46a6-aff9-05adcaf65d12)</kbd>
 
 
 ### Cloudinary
 
 
-![cloudinary](https://github.com/user-attachments/assets/16758d6b-b0ca-488a-aa8a-1b3e6bf73adc)
+<kbd>![cloudinary](https://github.com/user-attachments/assets/16758d6b-b0ca-488a-aa8a-1b3e6bf73adc)</kbd>
 
 
 ### CI PostgreSQL
 
 
-![postgresql](https://github.com/user-attachments/assets/62bf4fe6-8983-46da-ab98-63446a8817a7)
+<kbd>![postgresql](https://github.com/user-attachments/assets/62bf4fe6-8983-46da-ab98-63446a8817a7)</kbd>
 
 
