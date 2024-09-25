@@ -344,3 +344,6 @@ The user stories have been split between the user stories that have been complet
 
 
 * Posts are successfully added to blog when created through Posts model in Django Admin.
+
+
+* When unathorised user attempts to log in tyo Django Admin page they are denied access and greeted by the message 'You are authenticated as rooch20, but are not authorized to access this page. Would you like to login to a different account?'
