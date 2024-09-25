@@ -261,4 +261,19 @@ The user stories have been split between the user stories that have been complet
 * User is asked if they are sure they wish to log out of site before successfully logging out.
 
 
+### Blog Posts
 
+
+* Link located below post image changes colour when hovered over as was designed.
+
+
+* Link to article text works and brings user through to the article's main body.
+
+
+* Article header, image, and text are successfully formatted when iopened.
+
+
+* Previous comments appear as expected with unapproved comments appearing as shaded text and approved comments appearing in regular text.
+
+
+* Comment box is located beneath post as was designed.
