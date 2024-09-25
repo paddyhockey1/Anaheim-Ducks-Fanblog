@@ -351,10 +351,16 @@ The user stories have been split between the user stories that have been complet
 ## Validation
 
 
-## W3C HTML Validator
+## W3C HTML Validator Home Page
 
 
 <kbd>![w3c-html](https://github.com/user-attachments/assets/7709d00f-8f95-4399-acd0-53a4f9dd540f)</kbd>
+
+
+### W3c Validator Admin Page
+
+
+![W3c-admin](https://github.com/user-attachments/assets/958ef66b-6dd2-45c1-9a9a-eae3d56b6575)
 
 
 ### Lighthouse
