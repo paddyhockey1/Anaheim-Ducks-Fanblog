@@ -363,6 +363,31 @@ The user stories have been split between the user stories that have been complet
 <kbd>![w3c-admin-page](https://github.com/user-attachments/assets/dfe0eb92-ac43-4fa2-8a39-d24874acebd5)</kbd>
 
 
+### W3C Register Page
+
+
+<kbd>![w3c-singup](https://github.com/user-attachments/assets/8a1745dc-a88d-42e5-abf9-24882b4333c7)</kbd>
+### W3C Logout Page
+
+
+<kbd>![w3c-logout](https://github.com/user-attachments/assets/7aa13d15-c260-455f-858d-9ed672cf8af5)</kbd>
+
+
+### W3C Login Page
+
+
+<kbd>![w3c-login](https://github.com/user-attachments/assets/21ef206b-ed71-4322-b710-b4098f821e66)</kbd>
+
+
+### W3C Posts page
+
+
+![w3c-post-errors](https://github.com/user-attachments/assets/ab2244de-7a4d-4a61-9b08-3949395f84e4)
+
+
+* The errors encounterede in the posts HTML page were created by exisiting code that I could not sufficiently change to pass the validation process
+
+
 ### Lighthouse
 
 
