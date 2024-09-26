@@ -216,7 +216,8 @@ The user stories have been split between the user stories that have been complet
 ## Model Design
 
 
-<kbd>![ERD for Project 4](https://github.com/user-attachments/assets/57689708-c41f-4f0a-a5c3-e9e0cd43af70)</kbd>
+<kbd>![erd](https://github.com/user-attachments/assets/1d99a099-5cbf-480c-9660-3469941cc282)</kbd>
+
 
 * The models I used for my project are the default usr model in Django along with the two models in the walkthrough project, post and comment. I created my own custom model for 
   profiles that containe the fields of: user, first name, last name, picture, bio, and an extra model for each user's all time favourite Ducks player.
