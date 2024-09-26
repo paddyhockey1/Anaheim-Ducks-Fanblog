@@ -466,6 +466,60 @@ The user stories have been split between the user stories that have been complet
 ## Deployment
 
 
+### Github
+
+
+* The site was created using Gitpod editor and deployed through Github repositories using the repository named "Anaheim*Ducks*Fanblog".
+
+  
+* The steps for deployment in Github are as follows:
+
+   
+    *  In Github home page click"new".
+    
+    
+    * change repository name and allow public access. Add README file and click "create repository".
+    
+    
+    * In Github repository click "settings" tab.
+    
+    
+    * From settings menu navigate to "page" tab then "default branch" to select master branch.
+    
+    
+    * After master branch has been selected, page will be refreshed automatically with confirmation that deployment has been successful   
+
+
+### Gitpod
+
+
+* The following commands were used in Gitpod throughout the project:
+
+
+    * python3 manage.py runserver - opens project in browser
+    
+    
+    * git add . - first step of commit stage.
+    
+    
+    * git commit -m "commit_text" - Contains the body of the commit text.
+    
+    
+    * git push - saves commit to github.
+    
+    
+    * pip3 install 'program_name~=program version' - installs program into Gitpod.
+    
+    
+    * django-admin startproject 'project_name' - used to install the overall project
+    
+    
+    * python3 manage.py startapp 'app_name' - Installs the app contained within the project itself.
+    
+    
+    * pip3 freeze --local > requirements.txt - Saves all installed programs to the requirements file in project.
+
+
 ### Heroku
 
 
@@ -527,6 +581,6 @@ The user stories have been split between the user stories that have been complet
 ## Acknowledgements
 
 
-* I would like to thank my facilitator Marko and especially my Mentor Spence for their help throughout the project.
+* I would like to thank my facilitator Marko and especially my Mentor Spence for their help throughout the project. I would also like to thank my classmates who have been invaluable during this project.
 
 
