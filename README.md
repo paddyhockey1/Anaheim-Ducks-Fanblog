@@ -464,6 +464,13 @@ The user stories have been split between the user stories that have been complet
 <kbd>![balsamiq-mobile](https://github.com/user-attachments/assets/0ace5be7-2862-4abb-9c04-bfd149bbf18a)</kbd>
 
 
+## Unfixed Bugs
+
+
+* When user attempts to delete unapproved comment they are greeted with 'Not Found
+The requested resource was not found on this server' message instead of being returned to the previous page.
+
+
 ## Deployment
 
 
